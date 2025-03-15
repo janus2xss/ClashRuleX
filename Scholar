@@ -1,0 +1,33 @@
+;1. Scholar 
+
+- DOMAIN-KEYWORD,scholar,Scholar
+- DOMAIN-KEYWORD,openai,Scholar
+- DOMAIN-KEYWORD,copilot,Scholar
+- DOMAIN-SUFFIX,openai.com,Scholar
+- DOMAIN-SUFFIX,chatgpt.com,Scholar
+- DOMAIN-SUFFIX,oaistatic.com,Scholar
+- DOMAIN-SUFFIX,oaiusercontent.com,Scholar
+- DOMAIN-SUFFIX,ai.com,Scholar
+- DOMAIN-SUFFIX,ai.com,Scholar
+- DOMAIN-SUFFIX,openai.com,Scholar
+- DOMAIN-SUFFIX,auth0.com,Scholar
+- DOMAIN-SUFFIX,challenges.cloudflare.com,Scholar
+- DOMAIN-SUFFIX,chatgpt.com,Scholar
+- DOMAIN-SUFFIX,oaistatic.com,Scholar
+- DOMAIN-SUFFIX,stripe.com,Scholar
+- DOMAIN-SUFFIX,arkoselabs.com,Scholar
+- DOMAIN-SUFFIX,openaiapi-site.azureedge.net,Scholar
+- DOMAIN-SUFFIX,bard.google.com,Scholar
+- DOMAIN,gemini.google.com,Scholar
+- DOMAIN,makersuite.google.com,Scholar
+- DOMAIN,generativelanguage.googleapis.com,Scholar
+- DOMAIN,alkalimakersuite-pa.clients6.google.com,Scholar
+- DOMAIN,ai.google.dev,Scholar
+- DOMAIN-SUFFIX,claude.ai,Scholar
+- DOMAIN-SUFFIX,anthropic.com,Scholar
+- DOMAIN-SUFFIX,hsforms.net,Scholar
+- DOMAIN-SUFFIX,grazie.aws.intellij.net,Scholar
+- DOMAIN-SUFFIX,grazie.ai,Scholar
+
+
+
