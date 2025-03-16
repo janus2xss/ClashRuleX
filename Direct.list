@@ -1,7 +1,5 @@
 #6
 
-DOMAIN-SUFFIX,yofc.com
-
 DST-PORT,22
 DST-PORT,25
 DST-PORT,26
@@ -22,6 +20,7 @@ DST-PORT,6889
 DOMAIN-SUFFIX,bugutv.org
 DOMAIN-SUFFIX,4ksj.com
 DOMAIN-SUFFIX,ednchina.com
+DOMAIN-SUFFIX,yofc.com
 
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,taobao.com
