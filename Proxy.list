@@ -1,421 +1,192 @@
-#5
+# 5
 
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,bing.com
-
-DOMAIN-SUFFIX,hotmail.com
-DOMAIN-SUFFIX,slack.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,figma.com
-DOMAIN-SUFFIX,firefox.com
-DOMAIN-SUFFIX,notion.com
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,office.com
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,pinterest.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,rxiv.org
-DOMAIN-SUFFIX,acrjournals.org
-DOMAIN-SUFFIX,cademic.eb.com
-DOMAIN-SUFFIX,caric.co.jp
-DOMAIN-SUFFIX,clweb.org
-DOMAIN-SUFFIX,cm.org
-DOMAIN-SUFFIX,cs.org
-DOMAIN-SUFFIX,gu.org
-DOMAIN-SUFFIX,iaa.org
-DOMAIN-SUFFIX,imsciences.org
-DOMAIN-SUFFIX,ms.org
-DOMAIN-SUFFIX,natomy.tv
-DOMAIN-SUFFIX,nalytictech.com
-DOMAIN-SUFFIX,nnualreviews.org
-DOMAIN-SUFFIX,ps.org
-DOMAIN-SUFFIX,rabidopsis.org
-DOMAIN-SUFFIX,rtstor.org
-DOMAIN-SUFFIX,scelibrary.org
-DOMAIN-SUFFIX,sha.org
-DOMAIN-SUFFIX,sm.org
-DOMAIN-SUFFIX,sme.org
-DOMAIN-SUFFIX,sminternational.org
-DOMAIN-SUFFIX,sn-online.org
-DOMAIN-SUFFIX,spbjournals.org
-DOMAIN-SUFFIX,spenpublishing.com
-DOMAIN-SUFFIX,stm.org
-DOMAIN-SUFFIX,siam.org
-DOMAIN-KEYWORD,github
-DOMAIN-SUFFIX,atom.io
-DOMAIN-SUFFIX,dependabot.com
-DOMAIN-SUFFIX,ghcr.io
-DOMAIN-SUFFIX,git.io
-DOMAIN-SUFFIX,myoctocat.com
-DOMAIN-SUFFIX,npm.community
-DOMAIN-SUFFIX,npmjs.com
-DOMAIN-SUFFIX,npmjs.org
-DOMAIN-SUFFIX,opensource.guide
-DOMAIN-SUFFIX,rawgit.com
-DOMAIN-SUFFIX,repo.new
-DOMAIN-KEYWORD,discord
-DOMAIN-SUFFIX,airhorn.solutions
-DOMAIN-SUFFIX,airhornbot.com
-DOMAIN-SUFFIX,bigbeans.solutions
-DOMAIN-SUFFIX,dis.gd
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,figma.com
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-KEYWORD,gitlab
-DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,npm
-DOMAIN-KEYWORD,stackoverflow.com
-DOMAIN-SUFFIX,techcrunch.com
-DOMAIN-SUFFIX,go-lang.com
-DOMAIN-SUFFIX,go-lang.net
-DOMAIN-SUFFIX,go-lang.org
-DOMAIN-SUFFIX,go.dev
-DOMAIN-SUFFIX,godoc.org
-DOMAIN-SUFFIX,golang.com
-DOMAIN-SUFFIX,golang.net
-DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,trello.com
-DOMAIN-SUFFIX,techsmith.com
-DOMAIN-SUFFIX,thepiratebay.org
-
-
-
-DOMAIN,ip.sb
-
-
-DOMAIN,services.googleapis.cn
-DOMAIN,googleapis.cn
-DOMAIN-SUFFIX,ping.pe
-DOMAIN-SUFFIX,f2pool.com
-DOMAIN-SUFFIX,static.wikia.nocookie.net
-
-
-DOMAIN,services.googleapis.cn
-DOMAIN,google.com
-DOMAIN-SUFFIX,google.cn
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-KEYWORD,facebook
-DOMAIN-SUFFIX,fb.me
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,instagram
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,glados
-DOMAIN-KEYWORD,wikipedia
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,yahoo.com
-DOMAIN-SUFFIX,amazon.com
-DOMAIN-SUFFIX,vk.com
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,zoom.us
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,myshopify.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,okezone.com
-DOMAIN-SUFFIX,office.com
-DOMAIN-SUFFIX,ebay.com
-DOMAIN-SUFFIX,bongacams.com
-DOMAIN-SUFFIX,blogspot.com
-DOMAIN-SUFFIX,yahoo.co.jp
-DOMAIN-SUFFIX,babytree.com
-DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN-SUFFIX,adobe.com
-DOMAIN-SUFFIX,livejasmin.com
-DOMAIN-SUFFIX,stackoverflow.com
-DOMAIN-SUFFIX,dropbox.com
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,yandex.ru
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,imgur.com
-DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-SUFFIX,imdb.com
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,google.co.jp
-DOMAIN-SUFFIX,wordpress.com
-DOMAIN-SUFFIX,nytimes.com
-DOMAIN-SUFFIX,spotify.com
-
-
-DOMAIN-KEYWORD,google
-DOMAIN-SUFFIX,abc.xyz
-DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,androidify.com
-DOMAIN-SUFFIX,dialogflow.com
-DOMAIN-SUFFIX,autodraw.com
-DOMAIN-SUFFIX,capitalg.com
-DOMAIN-SUFFIX,certificate-transparency.org
-DOMAIN-SUFFIX,chrome.com
-DOMAIN-SUFFIX,chromeexperiments.com
-DOMAIN-SUFFIX,chromestatus.com
-DOMAIN-SUFFIX,chromium.org
-DOMAIN-SUFFIX,creativelab5.com
-DOMAIN-SUFFIX,debug.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,getmdl.io
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,gmodules.com
-DOMAIN-SUFFIX,godoc.org
-DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,gv.com
-DOMAIN-SUFFIX,gwtproject.org
-DOMAIN-SUFFIX,itasoftware.com
-DOMAIN-SUFFIX,madewithcode.com
-DOMAIN-SUFFIX,material.io
-DOMAIN-SUFFIX,polymer-project.org
-DOMAIN-SUFFIX,admin.recaptcha.net
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,shattered.io
-DOMAIN-SUFFIX,synergyse.com
-DOMAIN-SUFFIX,tensorflow.org
-DOMAIN-SUFFIX,tiltbrush.com
-DOMAIN-SUFFIX,waveprotocol.org
-DOMAIN-SUFFIX,waymo.com
-DOMAIN-SUFFIX,webmproject.org
-DOMAIN-SUFFIX,webrtc.org
-DOMAIN-SUFFIX,whatbrowser.org
-DOMAIN-SUFFIX,widevine.com
-DOMAIN-SUFFIX,x.company
-DOMAIN-SUFFIX,contest.com
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,quiz.directory
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telega.one
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,tx.me
-DOMAIN-SUFFIX,usercontent.dev
-
-DOMAIN,dns.google
+# ==== IP段匹配 ====
+IP-CIDR,142.171.133.131/32,no-resolve
+IP-CIDR,103.115.43.2/32,no-resolve
+IP-CIDR,104.236.69.0/24,no-resolve
+IP-CIDR,95.161.76.0/24,no-resolve
+IP-CIDR,142.251.215.0/24,no-resolve
+IP-CIDR,8.8.8.8/32,no-resolve
+IP-CIDR,8.8.4.4/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
 IP-CIDR,1.0.0.1/32,no-resolve
-IP-CIDR,8.8.8.8/32,no-resolve
+IP-CIDR,185.222.222.222/32,no-resolve
+IP-CIDR,208.67.222.222/32,no-resolve
+IP-CIDR,208.67.220.220/32,no-resolve
+IP-CIDR,142.250.0.0/16,no-resolve
+IP-CIDR,199.16.158.0/24,no-resolve     # YouTube专用
 
+# ==== 支付服务 ====
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,stripe.com
 
+# ==== 搜索引擎 ====
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,yandex.ru
 
-#- DOMAIN-SUFFIX,paypal.com,Proxy
-#- DOMAIN-SUFFIX,stripe.com,Proxy
-#- DOMAIN-SUFFIX,bing.com,Proxy
+# ==== 邮件与办公 ====
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,msn.com
 
-#- DOMAIN-SUFFIX,hotmail.com,Proxy
-#- DOMAIN-SUFFIX,slack.com,Proxy
-#- DOMAIN-SUFFIX,live.com,Proxy
-#- DOMAIN-SUFFIX,figma.com,Proxy
-#- DOMAIN-SUFFIX,firefox.com,Proxy
-#- DOMAIN-SUFFIX,notion.com,Proxy
-#- DOMAIN-SUFFIX,x.com,Proxy
-#- DOMAIN-SUFFIX,reddit.com,Proxy
-#- DOMAIN-SUFFIX,office.com,Proxy
-#- DOMAIN-SUFFIX,twimg.com,Proxy
-#- DOMAIN-SUFFIX,pinterest.com,Proxy
-#- DOMAIN-SUFFIX,auth0.com,Proxy
-#- DOMAIN,openaiapi-site.azureedge.net,Proxy
-#- DOMAIN-SUFFIX,rxiv.org,Proxy
-#- DOMAIN-SUFFIX,acrjournals.org,Proxy
-#- DOMAIN-SUFFIX,cademic.eb.com,Proxy
-#- DOMAIN-SUFFIX,caric.co.jp,Proxy
-#- DOMAIN-SUFFIX,clweb.org,Proxy
-#- DOMAIN-SUFFIX,cm.org,Proxy
-#- DOMAIN-SUFFIX,cs.org,Proxy
-#- DOMAIN-SUFFIX,gu.org,Proxy
-#- DOMAIN-SUFFIX,iaa.org,Proxy
-#- DOMAIN-SUFFIX,imsciences.org,Proxy
-#- DOMAIN-SUFFIX,ms.org,Proxy
-#- DOMAIN-SUFFIX,natomy.tv,Proxy
-#- DOMAIN-SUFFIX,nalytictech.com,Proxy
-#- DOMAIN-SUFFIX,nnualreviews.org,Proxy
-#- DOMAIN-SUFFIX,ps.org,Proxy
-#- DOMAIN-SUFFIX,rabidopsis.org,Proxy
-#- DOMAIN-SUFFIX,rtstor.org,Proxy
-#- DOMAIN-SUFFIX,scelibrary.org,Proxy
-#- DOMAIN-SUFFIX,sha.org,Proxy
-#- DOMAIN-SUFFIX,sm.org,Proxy
-#- DOMAIN-SUFFIX,sme.org,Proxy
-#- DOMAIN-SUFFIX,sminternational.org,Proxy
-#- DOMAIN-SUFFIX,sn-online.org,Proxy
-#- DOMAIN-SUFFIX,spbjournals.org,Proxy
-#- DOMAIN-SUFFIX,spenpublishing.com,Proxy
-#- DOMAIN-SUFFIX,stm.org,Proxy
-#- DOMAIN-SUFFIX,siam.org,Proxy
-#- DOMAIN-KEYWORD,github,Proxy
-#- DOMAIN-SUFFIX,atom.io,Proxy
-#- DOMAIN-SUFFIX,dependabot.com,Proxy
-#- DOMAIN-SUFFIX,ghcr.io,Proxy
-#- DOMAIN-SUFFIX,git.io,Proxy
-#- DOMAIN-SUFFIX,myoctocat.com,Proxy
-#- DOMAIN-SUFFIX,npm.community,Proxy
-#- DOMAIN-SUFFIX,npmjs.com,Proxy
-#- DOMAIN-SUFFIX,npmjs.org,Proxy
-#- DOMAIN-SUFFIX,opensource.guide,Proxy
-#- DOMAIN-SUFFIX,rawgit.com,Proxy
-#- DOMAIN-SUFFIX,repo.new,Proxy
-#- DOMAIN-KEYWORD,discord,Proxy
-#- DOMAIN-SUFFIX,airhorn.solutions,Proxy
-#- DOMAIN-SUFFIX,airhornbot.com,Proxy
-#- DOMAIN-SUFFIX,bigbeans.solutions,Proxy
-#- DOMAIN-SUFFIX,dis.gd,Proxy
-#- DOMAIN-SUFFIX,gstatic.com,Proxy
-#- DOMAIN-SUFFIX,google.com,Proxy
-#- DOMAIN-SUFFIX,figma.com,Proxy
-#- DOMAIN-SUFFIX,v2ex.com,Proxy
-#- DOMAIN-KEYWORD,gitlab,Proxy
-#- DOMAIN-KEYWORD,github,Proxy
-#- DOMAIN-KEYWORD,npm,Proxy
-#- DOMAIN-KEYWORD,stackoverflow.com,Proxy
-#- DOMAIN-SUFFIX,techcrunch.com,Proxy
-#- DOMAIN-SUFFIX,go-lang.com,Proxy
-#- DOMAIN-SUFFIX,go-lang.net,Proxy
-#- DOMAIN-SUFFIX,go-lang.org,Proxy
-#- DOMAIN-SUFFIX,go.dev,Proxy
-#- DOMAIN-SUFFIX,godoc.org,Proxy
-#- DOMAIN-SUFFIX,golang.com,Proxy
-#- DOMAIN-SUFFIX,golang.net,Proxy
-#- DOMAIN-SUFFIX,golang.org,Proxy
-#- DOMAIN-SUFFIX,trello.com,Proxy
-#- DOMAIN-SUFFIX,techsmith.com,Proxy
-#- DOMAIN-SUFFIX,thepiratebay.org,Proxy
+# ==== 开发工具与平台 ====
+DOMAIN-KEYWORD,github
+DOMAIN-SUFFIX,atom.io
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,gitlab
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,go.dev
+DOMAIN-SUFFIX,golang.org
+DOMAIN-KEYWORD,npm
+DOMAIN-SUFFIX,canva.com
+DOMAIN-SUFFIX,bugsnag.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,myoctocat.com
+DOMAIN-SUFFIX,rawgit.com
+DOMAIN-SUFFIX,repo.new
+DOMAIN-SUFFIX,dependabot.com
+DOMAIN-SUFFIX,techsmith.com
+DOMAIN-SUFFIX,tensorflow.org
 
+# ==== 即时通讯与社交 ====
+DOMAIN-SUFFIX,slack.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,vk.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,discord
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,socialchain.app
+DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.space
 
+# ==== 设计与协作 ====
+DOMAIN-SUFFIX,figma.com
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,trello.com
 
-#- DOMAIN,ip.sb,Proxy
+# ==== 科技公司服务 ====
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,services.googleapis.cn
+DOMAIN-SUFFIX,capcom.com
+DOMAIN-SUFFIX,plexapp.com
+DOMAIN-SUFFIX,plexmediaserver.com
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,chromium.org
 
+# ==== 云存储与计算 ====
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,firebaseio.com
 
-#- DOMAIN,services.googleapis.cn,Proxy
-#- DOMAIN,googleapis.cn,Proxy
-#- DOMAIN-SUFFIX,ping.pe,Proxy
-#- DOMAIN-SUFFIX,f2pool.com,Proxy
-#- DOMAIN-SUFFIX,static.wikia.nocookie.net,Proxy
+# ==== 流媒体与娱乐 ====
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,imgur.com
+DOMAIN-SUFFIX,yfsp.tv
+DOMAIN-SUFFIX,aiyifan.tv
+DOMAIN-SUFFIX,meijutt.cc
+DOMAIN-SUFFIX,piaohua.com
+DOMAIN-SUFFIX,streetfighter.com
+DOMAIN-SUFFIX,thepiratebay.org
 
+# ==== 电子商务 ====
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,myshopify.com
+DOMAIN-SUFFIX,polymarket.com
 
-#- DOMAIN,services.googleapis.cn,Proxy
-#- DOMAIN,google.com,Proxy
-#- DOMAIN-SUFFIX,google.cn,Proxy
-#- DOMAIN-SUFFIX,googleapis.cn,Proxy
-#- DOMAIN-KEYWORD,facebook,Proxy
-#- DOMAIN-SUFFIX,fb.me,Proxy
-#- DOMAIN-KEYWORD,gmail,Proxy
-#- DOMAIN-KEYWORD,twitter,Proxy
-#- DOMAIN-KEYWORD,instagram,Proxy
-#- DOMAIN-SUFFIX,twimg.com,Proxy
-#- DOMAIN-KEYWORD,blogspot,Proxy
-#- DOMAIN-KEYWORD,whatsapp,Proxy
-#- DOMAIN-KEYWORD,glados,Proxy
-#- DOMAIN-KEYWORD,wikipedia,Proxy
-#- DOMAIN-SUFFIX,google.com,Proxy
-#- DOMAIN-SUFFIX,facebook.com,Proxy
-#- DOMAIN-SUFFIX,yahoo.com,Proxy
-#- DOMAIN-SUFFIX,amazon.com,Proxy
-#- DOMAIN-SUFFIX,vk.com,Proxy
-#- DOMAIN-SUFFIX,reddit.com,Proxy
-#- DOMAIN-SUFFIX,live.com,Proxy
-#- DOMAIN-SUFFIX,zoom.us,Proxy
-#- DOMAIN-SUFFIX,wikipedia.org,Proxy
-#- DOMAIN-SUFFIX,myshopify.com,Proxy
-#- DOMAIN-SUFFIX,instagram.com,Proxy
-#- DOMAIN-SUFFIX,okezone.com,Proxy
-#- DOMAIN-SUFFIX,office.com,Proxy
-#- DOMAIN-SUFFIX,ebay.com,Proxy
-#- DOMAIN-SUFFIX,bongacams.com,Proxy
-#- DOMAIN-SUFFIX,blogspot.com,Proxy
-#- DOMAIN-SUFFIX,yahoo.co.jp,Proxy
-#- DOMAIN-SUFFIX,babytree.com,Proxy
-#- DOMAIN-SUFFIX,amazon.co.jp,Proxy
-#- DOMAIN-SUFFIX,adobe.com,Proxy
-#- DOMAIN-SUFFIX,livejasmin.com,Proxy
-#- DOMAIN-SUFFIX,stackoverflow.com,Proxy
-#- DOMAIN-SUFFIX,dropbox.com,Proxy
-#- DOMAIN-SUFFIX,msn.com,Proxy
-#- DOMAIN-SUFFIX,yandex.ru,Proxy
-#- DOMAIN-SUFFIX,linkedin.com,Proxy
-#- DOMAIN-SUFFIX,twitter.com,Proxy
-#- DOMAIN-SUFFIX,imgur.com,Proxy
-#- DOMAIN-SUFFIX,amazonaws.com,Proxy
-#- DOMAIN-SUFFIX,imdb.com,Proxy
-#- DOMAIN-SUFFIX,whatsapp.com,Proxy
-#- DOMAIN-SUFFIX,google.co.jp,Proxy
-#- DOMAIN-SUFFIX,wordpress.com,Proxy
-#- DOMAIN-SUFFIX,nytimes.com,Proxy
-#- DOMAIN-SUFFIX,spotify.com,Proxy
+# ==== 学术与研究 ====
+DOMAIN-SUFFIX,rxiv.org
+DOMAIN-SUFFIX,acrjournals.org
+DOMAIN-SUFFIX,annualreviews.org
+DOMAIN-SUFFIX,jstor.org
+DOMAIN-SUFFIX,1lib.sk
 
+# ==== 新闻与媒体 ====
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,techcrunch.com
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,blogspot.com
 
-#- DOMAIN-KEYWORD,google,Proxy
-#- DOMAIN-SUFFIX,abc.xyz,Proxy
-#- DOMAIN-SUFFIX,android.com,Proxy
-#- DOMAIN-SUFFIX,androidify.com,Proxy
-#- DOMAIN-SUFFIX,dialogflow.com,Proxy
-#- DOMAIN-SUFFIX,autodraw.com,Proxy
-#- DOMAIN-SUFFIX,capitalg.com,Proxy
-#- DOMAIN-SUFFIX,certificate-transparency.org,Proxy
-#- DOMAIN-SUFFIX,chrome.com,Proxy
-#- DOMAIN-SUFFIX,chromeexperiments.com,Proxy
-#- DOMAIN-SUFFIX,chromestatus.com,Proxy
-#- DOMAIN-SUFFIX,chromium.org,Proxy
-#- DOMAIN-SUFFIX,creativelab5.com,Proxy
-#- DOMAIN-SUFFIX,debug.com,Proxy
-#- DOMAIN-SUFFIX,deepmind.com,Proxy
-#- DOMAIN-SUFFIX,firebaseio.com,Proxy
-#- DOMAIN-SUFFIX,getmdl.io,Proxy
-#- DOMAIN-SUFFIX,ggpht.com,Proxy
-#- DOMAIN-SUFFIX,gmail.com,Proxy
-#- DOMAIN-SUFFIX,gmodules.com,Proxy
-#- DOMAIN-SUFFIX,godoc.org,Proxy
-#- DOMAIN-SUFFIX,golang.org,Proxy
-#- DOMAIN-SUFFIX,gv.com,Proxy
-#- DOMAIN-SUFFIX,gwtproject.org,Proxy
-#- DOMAIN-SUFFIX,itasoftware.com,Proxy
-#- DOMAIN-SUFFIX,madewithcode.com,Proxy
-#- DOMAIN-SUFFIX,material.io,Proxy
-#- DOMAIN-SUFFIX,polymer-project.org,Proxy
-#- DOMAIN-SUFFIX,admin.recaptcha.net,Proxy
-#- DOMAIN-SUFFIX,recaptcha.net,Proxy
-#- DOMAIN-SUFFIX,shattered.io,Proxy
-#- DOMAIN-SUFFIX,synergyse.com,Proxy
-#- DOMAIN-SUFFIX,tensorflow.org,Proxy
-#- DOMAIN-SUFFIX,tiltbrush.com,Proxy
-#- DOMAIN-SUFFIX,waveprotocol.org,Proxy
-#- DOMAIN-SUFFIX,waymo.com,Proxy
-#- DOMAIN-SUFFIX,webmproject.org,Proxy
-#- DOMAIN-SUFFIX,webrtc.org,Proxy
-#- DOMAIN-SUFFIX,whatbrowser.org,Proxy
-#- DOMAIN-SUFFIX,widevine.com,Proxy
-#- DOMAIN-SUFFIX,x.company,Proxy
-#- DOMAIN-SUFFIX,contest.com,Proxy
-#- DOMAIN-SUFFIX,graph.org,Proxy
-#- DOMAIN-SUFFIX,quiz.directory,Proxy
-#- DOMAIN-SUFFIX,t.me,Proxy
-#- DOMAIN-SUFFIX,tdesktop.com,Proxy
-#- DOMAIN-SUFFIX,telega.one,Proxy
-#- DOMAIN-SUFFIX,telegra.ph,Proxy
-#- DOMAIN-SUFFIX,telegram.dog,Proxy
-#- DOMAIN-SUFFIX,telegram.me,Proxy
-#- DOMAIN-SUFFIX,telegram.org,Proxy
-#- DOMAIN-SUFFIX,telegram.space,Proxy
-#- DOMAIN-SUFFIX,telesco.pe,Proxy
-#- DOMAIN-SUFFIX,tg.dev,Proxy
-#- DOMAIN-SUFFIX,tx.me,Proxy
-#- DOMAIN-SUFFIX,usercontent.dev,Proxy
+# ==== 网络工具与测试 ====
+DOMAIN-SUFFIX,ping.pe
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,netlify.app
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ip-score.com
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,browserleaks.net
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,dnscheck.tools
+DOMAIN-SUFFIX,arin.net
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,ipw.cn
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,ifconfig.me
 
+# ==== 浏览器相关 ====
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,webkit.org
+DOMAIN-SUFFIX,whatbrowser.org
 
-#- DOMAIN,dns.google,Proxy
-#- IP-CIDR,1.1.1.1/32,Proxy,no-resolve
-#- IP-CIDR,1.0.0.1/32,Proxy,no-resolve
-#- IP-CIDR,8.8.8.8/32,Proxy,no-resolve
+# ==== 国外DNS ====
+DOMAIN-SUFFIX,dns.google
+DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
+DOMAIN-SUFFIX,dot.sb
+DOMAIN-SUFFIX,dns.umbrella.com
+DOMAIN-SUFFIX,dns.quad9.net
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,doh.dns.sb
+DOMAIN-SUFFIX,doh.opendns.com
+DOMAIN-SUFFIX,hk-hkg.doh.sb
+DOMAIN-SUFFIX,surfsharkdns.com
 
-
-
+# ==== 其他特殊类别 ====
+DOMAIN-SUFFIX,bongacams.com
+DOMAIN-SUFFIX,6bcloud.top
+DOMAIN-SUFFIX,viptwo.top
+DOMAIN-SUFFIX,followme.com
+DOMAIN-SUFFIX,followme.ceo
+DOMAIN-SUFFIX,whatsmydns.me
+DOMAIN-SUFFIX,hostloc.net
+DOMAIN-SUFFIX,tmgm.com
+DOMAIN-SUFFIX,ip111.cn
+DOMAIN-SUFFIX,asiassn.com
+DOMAIN-SUFFIX,abcproxy.com
+DOMAIN-SUFFIX,piliapp.com
+DOMAIN-SUFFIX,xiaoxintv.cc
+DOMAIN-SUFFIX,bulianglin.com
+DOMAIN-SUFFIX,coincola.com
+DOMAIN-SUFFIX,coincolacdn.com
+DOMAIN-SUFFIX,colaotc.com
+DOMAIN-SUFFIX,metacubex.one
+DOMAIN-SUFFIX,polivera.ai
+DOMAIN-SUFFIX,stotik.com
+DOMAIN-SUFFIX,capcom.com
+DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,onesignal.com
+DOMAIN-SUFFIX,hlive.io
+DOMAIN-SUFFIX,bitwayeat.com
+DOMAIN-SUFFIX,null-addr.com
+DOMAIN-SUFFIX,addr.tools
+DOMAIN-SUFFIX,vultr.com
+DOMAIN-SUFFIX,speedtest.net
