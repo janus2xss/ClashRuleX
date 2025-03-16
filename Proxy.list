@@ -207,7 +207,7 @@ IP-CIDR,1.1.1.1/32,no-resolve
 IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,8.8.8.8/32,no-resolve
 
-#MATCH
+
 
 #- DOMAIN-SUFFIX,paypal.com,Proxy
 #- DOMAIN-SUFFIX,stripe.com,Proxy
@@ -418,4 +418,4 @@ IP-CIDR,8.8.8.8/32,no-resolve
 #- IP-CIDR,8.8.8.8/32,Proxy,no-resolve
 
 
-#- MATCH,Proxy
+
