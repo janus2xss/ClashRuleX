@@ -1,6 +1,8 @@
 #6
 
 DOMAIN-SUFFIX,yofc.com
+
+#尝试禁用目的端口
 #DST-PORT,22
 #DST-PORT,25
 #DST-PORT,26
@@ -16,6 +18,7 @@ DOMAIN-SUFFIX,yofc.com
 #DST-PORT,6887
 #DST-PORT,6888
 #DST-PORT,6889
+
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,baidu.com
@@ -346,7 +349,7 @@ IP-CIDR,100.64.0.0/10,no-resolve
 IP-CIDR,172.16.0.0/12,no-resolve
 IP-CIDR,192.168.0.0/16,no-resolve
 
-#DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,cn
 GEOIP,CN
 
 
