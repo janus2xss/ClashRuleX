@@ -1,62 +1,56 @@
 #1
 
-DOMAIN-KEYWORD,scholar
+# ===== OpenAI 相关 =====
 DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,copilot
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN,copilot.microsoft.com
+
+# ===== Google 相关（Bard/Gemini/MakerSuite） =====
 DOMAIN-SUFFIX,bard.google.com
-DOMAIN,gemini.google.com
-DOMAIN,makersuite.google.com
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,ai.google.dev
-DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,bing.com
+
+# ===== Anthropic 相关（Claude） =====
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,Claude
 DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,hsforms.net
-DOMAIN-SUFFIX,grazie.aws.intellij.net
-DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,claude.ai
 
+# ===== 通用服务依赖 =====
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,signalr.net
 
+# ===== 其他AI服务 =====
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metademolab.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,difyai.com
+DOMAIN-SUFFIX,genspark.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,x.ai
 
-
-#- DOMAIN-KEYWORD,scholar,Scholar
-#- DOMAIN-KEYWORD,openai,Scholar
-#- DOMAIN-KEYWORD,copilot,Scholar
-#- DOMAIN-SUFFIX,openai.com,Scholar
-#- DOMAIN-SUFFIX,chatgpt.com,Scholar
-#- DOMAIN-SUFFIX,oaistatic.com,Scholar
-#- DOMAIN-SUFFIX,oaiusercontent.com,Scholar
-#- DOMAIN-SUFFIX,ai.com,Scholar
-#- DOMAIN-SUFFIX,ai.com,Scholar
-#- DOMAIN-SUFFIX,openai.com,Scholar
-#- DOMAIN-SUFFIX,auth0.com,Scholar
-#- DOMAIN-SUFFIX,challenges.cloudflare.com,Scholar
-#- DOMAIN-SUFFIX,chatgpt.com,Scholar
-#- DOMAIN-SUFFIX,oaistatic.com,Scholar
-#- DOMAIN-SUFFIX,stripe.com,Scholar
-#- DOMAIN-SUFFIX,arkoselabs.com,Scholar
-#- DOMAIN-SUFFIX,openaiapi-site.azureedge.net,Scholar
-#- DOMAIN-SUFFIX,bard.google.com,Scholar
-#- DOMAIN,gemini.google.com,Scholar
-#- DOMAIN,makersuite.google.com,Scholar
-#- DOMAIN,generativelanguage.googleapis.com,Scholar
-#- DOMAIN,alkalimakersuite-pa.clients6.google.com,Scholar
-#- DOMAIN,ai.google.dev,Scholar
-#- DOMAIN-SUFFIX,claude.ai,Scholar
-#- DOMAIN-SUFFIX,anthropic.com,Scholar
-#- DOMAIN-SUFFIX,hsforms.net,Scholar
-#- DOMAIN-SUFFIX,grazie.aws.intellij.net,Scholar
-#- DOMAIN-SUFFIX,grazie.ai,Scholar
+# ===== 未归类域名 =====
+DOMAIN-SUFFIX,circumlunar.space
+DOMAIN-SUFFIX,vulpes.one
+DOMAIN-SUFFIX,mozz.us
+DOMAIN-SUFFIX,conman.org
+DOMAIN-SUFFIX,bortzmeyer.org
