@@ -2,8 +2,8 @@
 
 DOMAIN-SUFFIX,yofc.com
 
-#尝试禁用目的端口
-#DST-PORT,22
+# 尝试禁用目的端口
+# DST-PORT,22
 #DST-PORT,25
 #DST-PORT,26
 #DST-PORT,465
