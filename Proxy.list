@@ -69,6 +69,12 @@ DOMAIN-SUFFIX,socialchain.app
 DOMAIN-SUFFIX,telega.one
 DOMAIN-SUFFIX,telegram.dog
 DOMAIN-SUFFIX,telegram.space
+domain-suffix,line.naver.jp
+domain-suffix,line.me
+domain-suffix,line-apps.com
+domain-suffix,line-cdn.net
+domain-suffix,line-scdn.net
+domain-suffix,recaptcha.net
 
 # ==== 设计与协作 ====
 DOMAIN-SUFFIX,figma.com
