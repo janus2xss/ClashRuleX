@@ -1,5 +1,21 @@
 #1
 
+DOMAIN-KEYWORD,scholar
+DOMAIN-KEYWORD,copilot
+
+DOMAIN,gemini.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,ai.google.dev
+
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,hsforms.net
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,grazie.ai
+
+
 # ===== OpenAI 相关 =====
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,openai.com
