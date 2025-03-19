@@ -43,7 +43,7 @@ DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,ppsimg.com
 DOMAIN-SUFFIX,qiyi.com
 DOMAIN-SUFFIX,qiyipic.com
-DOMAIN-SUFFIX,qy.net
+#DOMAIN-SUFFIX,qy.net          # [重复]
 DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,music.126.net
 DOMAIN-SUFFIX,music.163.com
@@ -89,16 +89,16 @@ DOMAIN-SUFFIX,bytedns.net
 DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,feiliao.com
 DOMAIN-SUFFIX,gifshow.com
-DOMAIN-SUFFIX,huoshan.com
+#DOMAIN-SUFFIX,huoshan.com     # [重复]
 DOMAIN-SUFFIX,iesdouyin.com
-DOMAIN-SUFFIX,ixigua.com
+#DOMAIN-SUFFIX,ixigua.com      # [重复]
 DOMAIN-SUFFIX,kspkg.com
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,snssdk.com
+#DOMAIN-SUFFIX,pstatp.com      # [重复]
+#DOMAIN-SUFFIX,snssdk.com      # [重复]
 DOMAIN-SUFFIX,wukong.com
 DOMAIN-SUFFIX,zijieimg.com
 DOMAIN-SUFFIX,zjbyte.com
-DOMAIN-SUFFIX,zjcdn.com
+#DOMAIN-SUFFIX,zjcdn.com       # [重复]
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,b23.tv
@@ -159,11 +159,11 @@ DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mob.com
 DOMAIN-SUFFIX,netease.com
-DOMAIN-SUFFIX,office.com
-DOMAIN-SUFFIX,office365.com
+#DOMAIN-SUFFIX,office.com       # [重复]
+#DOMAIN-SUFFIX,office365.com    # [重复]
 DOMAIN-SUFFIX,oschina.net
-DOMAIN-SUFFIX,ppsimg.com
-DOMAIN-SUFFIX,pstatp.com
+#DOMAIN-SUFFIX,ppsimg.com       # [重复]
+#DOMAIN-SUFFIX,pstatp.com       # [重复]
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,qdaily.com
 DOMAIN-SUFFIX,qdmm.com
@@ -171,10 +171,10 @@ DOMAIN-SUFFIX,qhimg.com
 DOMAIN-SUFFIX,qhres.com
 DOMAIN-SUFFIX,qidian.com
 DOMAIN-SUFFIX,qihucdn.com
-DOMAIN-SUFFIX,qiniu.com
-DOMAIN-SUFFIX,qiniucdn.com
-DOMAIN-SUFFIX,qiyipic.com
-DOMAIN-SUFFIX,qq.com
+#DOMAIN-SUFFIX,qiniu.com        # [重复]
+#DOMAIN-SUFFIX,qiniucdn.com     # [重复]
+#DOMAIN-SUFFIX,qiyipic.com     # [重复]
+#DOMAIN-SUFFIX,qq.com           # [重复]
 DOMAIN-SUFFIX,qqurl.com
 DOMAIN-SUFFIX,rarbg.to
 DOMAIN-SUFFIX,ruguoapp.com
@@ -188,16 +188,16 @@ DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,sspai.com
 DOMAIN-SUFFIX,suning.com
-DOMAIN-SUFFIX,taobao.com
+#DOMAIN-SUFFIX,taobao.com       # [重复]
 DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,tmall.com
+#DOMAIN-SUFFIX,tmall.com        # [重复]
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,umetrip.com
 DOMAIN-SUFFIX,upaiyun.com
 DOMAIN-SUFFIX,upyun.com
 DOMAIN-SUFFIX,veryzhun.com
 DOMAIN-SUFFIX,weather.com
-DOMAIN-SUFFIX,weibo.com
+#DOMAIN-SUFFIX,weibo.com        # [重复]
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
 DOMAIN-SUFFIX,xiaomicp.com
@@ -212,7 +212,7 @@ DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youdao.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,zealer.com
-DOMAIN-SUFFIX,zhihu.com
+#DOMAIN-SUFFIX,zhihu.com        # [重复]
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zimuzu.tv
 DOMAIN-SUFFIX,apcdns.net
@@ -226,7 +226,7 @@ DOMAIN-SUFFIX,myapp.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,qcloudimg.com
-DOMAIN-SUFFIX,qq.com
+#DOMAIN-SUFFIX,qq.com           # [重复]
 DOMAIN-SUFFIX,qqmail.com
 DOMAIN-SUFFIX,qzone.com
 DOMAIN-SUFFIX,servicewechat.com
@@ -298,14 +298,14 @@ DOMAIN-SUFFIX,etao.com
 DOMAIN-SUFFIX,juhuasuan.com
 DOMAIN-SUFFIX,lingshoujia.com
 DOMAIN-SUFFIX,pailitao.com
-DOMAIN-SUFFIX,taobao.com
+#DOMAIN-SUFFIX,taobao.com       # [重复]
 DOMAIN-SUFFIX,taobao.org
 DOMAIN-SUFFIX,taobaocdn.com
 DOMAIN-SUFFIX,taobizhong.com
 DOMAIN-SUFFIX,taopiaopiao.com
 DOMAIN-SUFFIX,tbcache.com
 DOMAIN-SUFFIX,tburl.in
-DOMAIN-SUFFIX,tmall.com
+#DOMAIN-SUFFIX,tmall.com        # [重复]
 DOMAIN-SUFFIX,tmall.ru
 DOMAIN-SUFFIX,tmalltv.com
 DOMAIN-SUFFIX,tmjl.ai
