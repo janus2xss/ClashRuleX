@@ -1,415 +1,377 @@
 # 5
 
-# ==== IP段匹配 ====
-IP-CIDR,142.171.133.131/32,no-resolve
-IP-CIDR,103.115.43.2/32,no-resolve
-IP-CIDR,104.236.69.0/24,no-resolve
-IP-CIDR,95.161.76.0/24,no-resolve
-IP-CIDR,142.251.215.0/24,no-resolve
-IP-CIDR,8.8.8.8/32,no-resolve
-IP-CIDR,8.8.4.4/32,no-resolve
-IP-CIDR,1.1.1.1/32,no-resolve
-IP-CIDR,1.0.0.1/32,no-resolve
-IP-CIDR,185.222.222.222/32,no-resolve
-IP-CIDR,208.67.222.222/32,no-resolve
-IP-CIDR,208.67.220.220/32,no-resolve
-IP-CIDR,142.250.0.0/16,no-resolve
+# ==== IP段匹配 (针对 IP 地址匹配规则) ====
+IP-CIDR,142.171.133.131/32,no-resolve  
+IP-CIDR,103.115.43.2/32,no-resolve  
+IP-CIDR,104.236.69.0/24,no-resolve  
+IP-CIDR,95.161.76.0/24,no-resolve  
+IP-CIDR,142.251.215.0/24,no-resolve  
+IP-CIDR,8.8.8.8/32,no-resolve  
+IP-CIDR,8.8.4.4/32,no-resolve  
+IP-CIDR,1.1.1.1/32,no-resolve  
+IP-CIDR,1.0.0.1/32,no-resolve  
+IP-CIDR,185.222.222.222/32,no-resolve  
+IP-CIDR,208.67.222.222/32,no-resolve  
+IP-CIDR,208.67.220.220/32,no-resolve  
+IP-CIDR,142.250.0.0/16,no-resolve  
 IP-CIDR,199.16.158.0/24,no-resolve     # YouTube专用
 
-#Telegram
-IP-CIDR,67.198.55.0/24,no-resolve
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.8.0/22,no-resolve
-IP-CIDR,91.108.12.0/22,no-resolve
-IP-CIDR,91.108.16.0/22,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,109.239.140.0/24,no-resolve
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,205.172.60.0/22,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
+# Telegram（IP规则）
+IP-CIDR,67.198.55.0/24,no-resolve  
+IP-CIDR,91.108.4.0/22,no-resolve  
+IP-CIDR,91.108.8.0/22,no-resolve  
+IP-CIDR,91.108.12.0/22,no-resolve  
+IP-CIDR,91.108.16.0/22,no-resolve  
+IP-CIDR,91.108.56.0/22,no-resolve  
+IP-CIDR,109.239.140.0/24,no-resolve  
+IP-CIDR,149.154.160.0/20,no-resolve  
+IP-CIDR,205.172.60.0/22,no-resolve  
+IP-CIDR6,2001:b28:f23d::/48,no-resolve  
+IP-CIDR6,2001:b28:f23f::/48,no-resolve  
 IP-CIDR6,2001:67c:4e8::/48,no-resolve   # Telegram专用
 
-# ==== 支付服务 ====
-DOMAIN-SUFFIX,paypal.com
+
+
+# ==== 支付服务 (与支付相关的域名) ====
+DOMAIN-SUFFIX,paypal.com  
 DOMAIN-SUFFIX,stripe.com
 
-# ==== 搜索引擎 ====
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,yandex.ru
-
-# ==== 邮件与办公 ====
-DOMAIN-SUFFIX,hotmail.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,office.com
-DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,msn.com
-
-# ==== 开发工具与平台 ====
-DOMAIN-KEYWORD,github
-DOMAIN-SUFFIX,atom.io
-DOMAIN-SUFFIX,npmjs.com
-DOMAIN-SUFFIX,git.io
-DOMAIN-SUFFIX,gitlab
-DOMAIN-SUFFIX,stackoverflow.com
-DOMAIN-SUFFIX,go.dev
-DOMAIN-SUFFIX,golang.org
-DOMAIN-KEYWORD,npm
-DOMAIN-SUFFIX,canva.com
-DOMAIN-SUFFIX,bugsnag.com
-DOMAIN-SUFFIX,ghcr.io
-DOMAIN-SUFFIX,myoctocat.com
-DOMAIN-SUFFIX,rawgit.com
-DOMAIN-SUFFIX,repo.new
-DOMAIN-SUFFIX,dependabot.com
-DOMAIN-SUFFIX,techsmith.com
-DOMAIN-SUFFIX,tensorflow.org
-
-# ==== 即时通讯与社交 ====
-DOMAIN-SUFFIX,slack.com
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,vk.com
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.me
-# DOMAIN-SUFFIX,telegram.org  # 重复于前面的 DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,discord
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,socialchain.app
-DOMAIN-SUFFIX,telega.one
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,line.naver.jp
-DOMAIN-SUFFIX,line.me
-DOMAIN-SUFFIX,line-apps.com
-DOMAIN-SUFFIX,line-cdn.net
-DOMAIN-SUFFIX,line-scdn.net
-DOMAIN-SUFFIX,recaptcha.net
-
-# ==== 设计与协作 ====
-DOMAIN-SUFFIX,figma.com
-DOMAIN-SUFFIX,notion.com
-DOMAIN-SUFFIX,trello.com
-
-# ==== 科技公司服务 ====
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,adobe.com
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,services.googleapis.cn
-DOMAIN-SUFFIX,capcom.com
-DOMAIN-SUFFIX,plexapp.com
-DOMAIN-SUFFIX,plexmediaserver.com
-DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,chromium.org
-
-# ==== 云存储与计算 ====
-DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-SUFFIX,dropbox.com
-DOMAIN-SUFFIX,firebaseio.com
-
-# ==== 流媒体与娱乐 ====
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,imdb.com
-DOMAIN-SUFFIX,imgur.com
-DOMAIN-SUFFIX,yfsp.tv
-DOMAIN-SUFFIX,aiyifan.tv
-DOMAIN-SUFFIX,meijutt.cc
-DOMAIN-SUFFIX,piaohua.com
-DOMAIN-SUFFIX,streetfighter.com
-DOMAIN-SUFFIX,thepiratebay.org
-
-# ==== 电子商务 ====
-DOMAIN-SUFFIX,amazon.com
-DOMAIN-SUFFIX,ebay.com
-DOMAIN-SUFFIX,myshopify.com
-DOMAIN-SUFFIX,polymarket.com
-
-# ==== 学术与研究 ====
-DOMAIN-SUFFIX,rxiv.org
-DOMAIN-SUFFIX,acrjournals.org
-DOMAIN-SUFFIX,annualreviews.org
-DOMAIN-SUFFIX,jstor.org
-DOMAIN-SUFFIX,1lib.sk
-
-# ==== 新闻与媒体 ====
-DOMAIN-SUFFIX,nytimes.com
-DOMAIN-SUFFIX,techcrunch.com
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,blogspot.com
-
-# ==== 网络工具与测试 ====
-DOMAIN-SUFFIX,ping.pe
-DOMAIN-SUFFIX,ip.sb
-DOMAIN-SUFFIX,netlify.app
-DOMAIN-SUFFIX,ipinfo.io
-DOMAIN-SUFFIX,ip-score.com
-DOMAIN-SUFFIX,dnsleaktest.com
-DOMAIN-SUFFIX,ipleak.net
-DOMAIN-SUFFIX,browserleaks.com
-DOMAIN-SUFFIX,browserleaks.org
-DOMAIN-SUFFIX,browserleaks.net
-DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,dnscheck.tools
-DOMAIN-SUFFIX,arin.net
-DOMAIN-SUFFIX,test-ipv6.com
-DOMAIN-SUFFIX,ipw.cn
-DOMAIN-SUFFIX,whoer.net
-DOMAIN-SUFFIX,ifconfig.me
-
-# ==== 浏览器相关 ====
-DOMAIN-SUFFIX,firefox.com
-DOMAIN-SUFFIX,chrome.com
-DOMAIN-SUFFIX,webkit.org
-DOMAIN-SUFFIX,whatbrowser.org
-
-# ==== 国外DNS ====
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
-DOMAIN-SUFFIX,dot.sb
-DOMAIN-SUFFIX,dns.umbrella.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,doh.dns.sb
-DOMAIN-SUFFIX,doh.opendns.com
-DOMAIN-SUFFIX,hk-hkg.doh.sb
-DOMAIN-SUFFIX,surfsharkdns.com
-
-# ==== 其他特殊类别 ====
-DOMAIN-SUFFIX,myqnapcloud.com
-DOMAIN-SUFFIX,qnapclub.eu
-DOMAIN-SUFFIX,myqnapcloud.io
-DOMAIN-SUFFIX,bongacams.com
-DOMAIN-SUFFIX,6bcloud.top
-DOMAIN-SUFFIX,viptwo.top
-DOMAIN-SUFFIX,followme.com
-DOMAIN-SUFFIX,followme.ceo
-DOMAIN-SUFFIX,whatsmydns.me
-DOMAIN-SUFFIX,hostloc.net
-DOMAIN-SUFFIX,tmgm.com
-DOMAIN-SUFFIX,ip111.cn
-DOMAIN-SUFFIX,asiassn.com
-DOMAIN-SUFFIX,abcproxy.com
-DOMAIN-SUFFIX,piliapp.com
-DOMAIN-SUFFIX,xiaoxintv.cc
-DOMAIN-SUFFIX,bulianglin.com
-DOMAIN-SUFFIX,coincola.com
-DOMAIN-SUFFIX,coincolacdn.com
-DOMAIN-SUFFIX,colaotc.com
-DOMAIN-SUFFIX,metacubex.one
-DOMAIN-SUFFIX,polivera.ai
-DOMAIN-SUFFIX,stotik.com
-# DOMAIN-SUFFIX,capcom.com  # 重复于前面的 DOMAIN-SUFFIX,capcom.com
-DOMAIN-SUFFIX,nodeseek.com
-DOMAIN-SUFFIX,onesignal.com
-DOMAIN-SUFFIX,hlive.io
-DOMAIN-SUFFIX,bitwayeat.com
-DOMAIN-SUFFIX,null-addr.com
-DOMAIN-SUFFIX,addr.tools
-DOMAIN-SUFFIX,vultr.com
-DOMAIN-SUFFIX,speedtest.net
 
 
+# ==== 搜索引擎 (主要搜索引擎相关域名) ====
+DOMAIN-SUFFIX,bing.com  
+DOMAIN-SUFFIX,google.com  
+DOMAIN-SUFFIX,yandex.ru  
+# （附加规则中补充：DOMAIN-KEYWORD,google）
+DOMAIN-KEYWORD,google
 
-#DOMAIN-SUFFIX,paypal.com  # 重复于前面的 DOMAIN-SUFFIX,paypal.com
-#DOMAIN-SUFFIX,stripe.com  # 重复于前面的 DOMAIN-SUFFIX,stripe.com
-#DOMAIN-SUFFIX,bing.com  # 重复于前面的 DOMAIN-SUFFIX,bing.com
-#DOMAIN-SUFFIX,hotmail.com  # 重复于前面的 DOMAIN-SUFFIX,hotmail.com
-#DOMAIN-SUFFIX,slack.com  # 重复于前面的 DOMAIN-SUFFIX,slack.com
-#DOMAIN-SUFFIX,live.com  # 重复于前面的 DOMAIN-SUFFIX,live.com
-#DOMAIN-SUFFIX,figma.com  # 重复于前面的 DOMAIN-SUFFIX,figma.com
-#DOMAIN-SUFFIX,firefox.com  # 重复于前面的 DOMAIN-SUFFIX,firefox.com
-#DOMAIN-SUFFIX,notion.com  # 重复于前面的 DOMAIN-SUFFIX,notion.com
-#DOMAIN-SUFFIX,x.com  # 重复于前面的 DOMAIN-SUFFIX,x.com
-#DOMAIN-SUFFIX,reddit.com  # 重复于前面的 DOMAIN-SUFFIX,reddit.com
-#DOMAIN-SUFFIX,office.com  # 重复于前面的 DOMAIN-SUFFIX,office.com
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,pinterest.com
+
+# ==== 邮件与办公 (邮件、办公及通讯相关) ====
+DOMAIN-SUFFIX,hotmail.com  
+DOMAIN-SUFFIX,live.com  
+DOMAIN-SUFFIX,office.com  
+DOMAIN-SUFFIX,gmail.com  
+DOMAIN-SUFFIX,msn.com  
+# （附加规则中补充：DOMAIN-KEYWORD,gmail）
+DOMAIN-KEYWORD,gmail
+
+
+# ==== 开发工具与平台 (开发、编程及相关平台) ====
+DOMAIN-KEYWORD,github  
+DOMAIN-SUFFIX,atom.io  
+DOMAIN-SUFFIX,npmjs.com  
+DOMAIN-SUFFIX,git.io  
+DOMAIN-SUFFIX,gitlab  
+DOMAIN-SUFFIX,stackoverflow.com  
+DOMAIN-SUFFIX,go.dev  
+DOMAIN-SUFFIX,golang.org  
+DOMAIN-KEYWORD,npm  
+DOMAIN-SUFFIX,canva.com  
+DOMAIN-SUFFIX,bugsnag.com  
+DOMAIN-SUFFIX,ghcr.io  
+DOMAIN-SUFFIX,myoctocat.com  
+DOMAIN-SUFFIX,rawgit.com  
+DOMAIN-SUFFIX,repo.new  
+DOMAIN-SUFFIX,dependabot.com  
+DOMAIN-SUFFIX,techsmith.com  
+DOMAIN-SUFFIX,tensorflow.org  
+
+# （附加规则中补充：DOMAIN-SUFFIX,auth0.com; DOMAIN-SUFFIX,npm.community; DOMAIN-SUFFIX,npmjs.org; DOMAIN-SUFFIX,opensource.guide; DOMAIN-SUFFIX,go-lang.com; DOMAIN-SUFFIX,go-lang.net; DOMAIN-SUFFIX,go-lang.org; DOMAIN-SUFFIX,godoc.org; DOMAIN-SUFFIX,golang.com; DOMAIN-SUFFIX,golang.net; DOMAIN-SUFFIX,v2ex.com; DOMAIN-SUFFIX,gwtproject.org; DOMAIN-SUFFIX,itasoftware.com; DOMAIN-SUFFIX,madewithcode.com; DOMAIN-SUFFIX,polymer-project.org）
+
 DOMAIN-SUFFIX,auth0.com
-DOMAIN,openaiapi-site.azureedge.net
-#DOMAIN-SUFFIX,rxiv.org  # 重复于前面的 DOMAIN-SUFFIX,rxiv.org
-#DOMAIN-SUFFIX,acrjournals.org  # 重复于前面的 DOMAIN-SUFFIX,acrjournals.org
-DOMAIN-SUFFIX,cademic.eb.com
-DOMAIN-SUFFIX,caric.co.jp
-DOMAIN-SUFFIX,clweb.org
-DOMAIN-SUFFIX,cm.org
-DOMAIN-SUFFIX,cs.org
-DOMAIN-SUFFIX,gu.org
-DOMAIN-SUFFIX,iaa.org
-DOMAIN-SUFFIX,imsciences.org
-DOMAIN-SUFFIX,ms.org
-DOMAIN-SUFFIX,natomy.tv
-DOMAIN-SUFFIX,nalytictech.com
-DOMAIN-SUFFIX,nnualreviews.org
-DOMAIN-SUFFIX,ps.org
-DOMAIN-SUFFIX,rabidopsis.org
-DOMAIN-SUFFIX,rtstor.org
-DOMAIN-SUFFIX,scelibrary.org
-DOMAIN-SUFFIX,sha.org
-DOMAIN-SUFFIX,sm.org
-DOMAIN-SUFFIX,sme.org
-DOMAIN-SUFFIX,sminternational.org
-DOMAIN-SUFFIX,sn-online.org
-DOMAIN-SUFFIX,spbjournals.org
-DOMAIN-SUFFIX,spenpublishing.com
-DOMAIN-SUFFIX,stm.org
-DOMAIN-SUFFIX,siam.org
-#DOMAIN-KEYWORD,github  # 重复于前面的 DOMAIN-KEYWORD,github
-#DOMAIN-SUFFIX,atom.io  # 重复于前面的 DOMAIN-SUFFIX,atom.io
-#DOMAIN-SUFFIX,dependabot.com  # 重复于前面的 DOMAIN-SUFFIX,dependabot.com
-#DOMAIN-SUFFIX,ghcr.io  # 重复于前面的 DOMAIN-SUFFIX,ghcr.io
-#DOMAIN-SUFFIX,git.io  # 重复于前面的 DOMAIN-SUFFIX,git.io
-#DOMAIN-SUFFIX,myoctocat.com  # 重复于前面的 DOMAIN-SUFFIX,myoctocat.com
 DOMAIN-SUFFIX,npm.community
-#DOMAIN-SUFFIX,npmjs.com  # 重复于前面的 DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,opensource.guide
-#DOMAIN-SUFFIX,rawgit.com  # 重复于前面的 DOMAIN-SUFFIX,rawgit.com
-#DOMAIN-SUFFIX,repo.new  # 重复于前面的 DOMAIN-SUFFIX,repo.new
-DOMAIN-KEYWORD,discord
-DOMAIN-SUFFIX,airhorn.solutions
-DOMAIN-SUFFIX,airhornbot.com
-DOMAIN-SUFFIX,bigbeans.solutions
-DOMAIN-SUFFIX,dis.gd
-DOMAIN-SUFFIX,gstatic.com
-#DOMAIN-SUFFIX,google.com  # 重复于前面的 DOMAIN-SUFFIX,google.com
-#DOMAIN-SUFFIX,figma.com  # 重复于前面的 DOMAIN-SUFFIX,figma.com
-DOMAIN-SUFFIX,v2ex.com
-#DOMAIN-KEYWORD,gitlab  # 重复于前面的 DOMAIN-SUFFIX,gitlab（类型不同，但内容重复时可视情况处理）
-#DOMAIN-KEYWORD,github  # 重复于前面的 DOMAIN-KEYWORD,github
-#DOMAIN-KEYWORD,npm  # 重复于前面的 DOMAIN-KEYWORD,npm
-#DOMAIN-KEYWORD,stackoverflow.com  # 重复于前面的 DOMAIN-SUFFIX,stackoverflow.com（类型不同）
-#DOMAIN-SUFFIX,techcrunch.com  # 重复于前面的 DOMAIN-SUFFIX,techcrunch.com
 DOMAIN-SUFFIX,go-lang.com
 DOMAIN-SUFFIX,go-lang.net
 DOMAIN-SUFFIX,go-lang.org
-#DOMAIN-SUFFIX,go.dev  # 重复于前面的 DOMAIN-SUFFIX,go.dev
 DOMAIN-SUFFIX,godoc.org
 DOMAIN-SUFFIX,golang.com
 DOMAIN-SUFFIX,golang.net
-#DOMAIN-SUFFIX,golang.org  # 重复于前面的 DOMAIN-SUFFIX,golang.org
-#DOMAIN-SUFFIX,trello.com  # 重复于前面的 DOMAIN-SUFFIX,trello.com
-#DOMAIN-SUFFIX,techsmith.com  # 重复于前面的 DOMAIN-SUFFIX,techsmith.com
-#DOMAIN-SUFFIX,thepiratebay.org  # 重复于前面的 DOMAIN-SUFFIX,thepiratebay.org
-DOMAIN,ip.sb
-DOMAIN,services.googleapis.cn
-DOMAIN,googleapis.cn
-#DOMAIN-SUFFIX,ping.pe  # 重复于前面的 DOMAIN-SUFFIX,ping.pe
-DOMAIN-SUFFIX,f2pool.com
-DOMAIN-SUFFIX,static.wikia.nocookie.net
-#DOMAIN,services.googleapis.cn  # 重复于前面的 DOMAIN,services.googleapis.cn
-DOMAIN,google.com
-DOMAIN-SUFFIX,google.cn
-#DOMAIN-SUFFIX,googleapis.cn  # 重复于前面的 DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-KEYWORD,facebook
-DOMAIN-SUFFIX,fb.me
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,instagram
-#DOMAIN-SUFFIX,twimg.com  # 重复于前面的 DOMAIN-SUFFIX,twimg.com
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,glados
-DOMAIN-KEYWORD,wikipedia
-#DOMAIN-SUFFIX,google.com  # 重复于前面的 DOMAIN-SUFFIX,google.com
-#DOMAIN-SUFFIX,facebook.com  # 重复于前面的 DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,yahoo.com
-#DOMAIN-SUFFIX,amazon.com  # 重复于前面的 DOMAIN-SUFFIX,amazon.com
-#DOMAIN-SUFFIX,vk.com  # 重复于前面的 DOMAIN-SUFFIX,vk.com
-#DOMAIN-SUFFIX,reddit.com  # 重复于前面的 DOMAIN-SUFFIX,reddit.com
-#DOMAIN-SUFFIX,live.com  # 重复于前面的 DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,zoom.us
-#DOMAIN-SUFFIX,wikipedia.org  # 重复于前面的 DOMAIN-SUFFIX,wikipedia.org
-#DOMAIN-SUFFIX,myshopify.com  # 重复于前面的 DOMAIN-SUFFIX,myshopify.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,okezone.com
-#DOMAIN-SUFFIX,office.com  # 重复于前面的 DOMAIN-SUFFIX,office.com
-#DOMAIN-SUFFIX,ebay.com  # 重复于前面的 DOMAIN-SUFFIX,ebay.com
-#DOMAIN-SUFFIX,bongacams.com  # 重复于前面的 DOMAIN-SUFFIX,bongacams.com
-#DOMAIN-SUFFIX,blogspot.com  # 重复于前面的 DOMAIN-SUFFIX,blogspot.com
-DOMAIN-SUFFIX,yahoo.co.jp
-DOMAIN-SUFFIX,babytree.com
-DOMAIN-SUFFIX,amazon.co.jp
-#DOMAIN-SUFFIX,adobe.com  # 重复于前面的 DOMAIN-SUFFIX,adobe.com
-DOMAIN-SUFFIX,livejasmin.com
-#DOMAIN-SUFFIX,stackoverflow.com  # 重复于前面的 DOMAIN-SUFFIX,stackoverflow.com
-#DOMAIN-SUFFIX,dropbox.com  # 重复于前面的 DOMAIN-SUFFIX,dropbox.com
-#DOMAIN-SUFFIX,msn.com  # 重复于前面的 DOMAIN-SUFFIX,msn.com
-#DOMAIN-SUFFIX,yandex.ru  # 重复于前面的 DOMAIN-SUFFIX,yandex.ru
-#DOMAIN-SUFFIX,linkedin.com  # 重复于前面的 DOMAIN-SUFFIX,linkedin.com
-#DOMAIN-SUFFIX,twitter.com  # 重复于前面的 DOMAIN-SUFFIX,twitter.com
-#DOMAIN-SUFFIX,imgur.com  # 重复于前面的 DOMAIN-SUFFIX,imgur.com
-#DOMAIN-SUFFIX,amazonaws.com  # 重复于前面的 DOMAIN-SUFFIX,amazonaws.com
-#DOMAIN-SUFFIX,imdb.com  # 重复于前面的 DOMAIN-SUFFIX,imdb.com
-#DOMAIN-SUFFIX,whatsapp.com  # 重复于前面的 DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,google.co.jp
-DOMAIN-SUFFIX,wordpress.com
-#DOMAIN-SUFFIX,nytimes.com  # 重复于前面的 DOMAIN-SUFFIX,nytimes.com
-#DOMAIN-SUFFIX,spotify.com  # 重复于前面的 DOMAIN-SUFFIX,spotify.com
-DOMAIN-KEYWORD,google
-DOMAIN-SUFFIX,abc.xyz
-DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,androidify.com
-DOMAIN-SUFFIX,dialogflow.com
-DOMAIN-SUFFIX,autodraw.com
-DOMAIN-SUFFIX,capitalg.com
-DOMAIN-SUFFIX,certificate-transparency.org
-#DOMAIN-SUFFIX,chrome.com  # 重复于前面的 DOMAIN-SUFFIX,chrome.com
-DOMAIN-SUFFIX,chromeexperiments.com
-DOMAIN-SUFFIX,chromestatus.com
-#DOMAIN-SUFFIX,chromium.org  # 重复于前面的 DOMAIN-SUFFIX,chromium.org
-DOMAIN-SUFFIX,creativelab5.com
-DOMAIN-SUFFIX,debug.com
-#DOMAIN-SUFFIX,deepmind.com  # 重复于前面的 DOMAIN-SUFFIX,deepmind.com
-#DOMAIN-SUFFIX,firebaseio.com  # 重复于前面的 DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,getmdl.io
-DOMAIN-SUFFIX,ggpht.com
-#DOMAIN-SUFFIX,gmail.com  # 重复于前面的 DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,gmodules.com
-#DOMAIN-SUFFIX,godoc.org  # 重复于前面的 DOMAIN-SUFFIX,godoc.org
-#DOMAIN-SUFFIX,golang.org  # 重复于前面的 DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,gv.com
+DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,gwtproject.org
 DOMAIN-SUFFIX,itasoftware.com
 DOMAIN-SUFFIX,madewithcode.com
-DOMAIN-SUFFIX,material.io
 DOMAIN-SUFFIX,polymer-project.org
+
+
+
+# ==== 即时通讯与社交 (即时通讯、社交及相关平台) ====
+DOMAIN-SUFFIX,slack.com  
+DOMAIN-SUFFIX,x.com  
+DOMAIN-SUFFIX,reddit.com  
+DOMAIN-SUFFIX,twitter.com  
+DOMAIN-SUFFIX,facebook.com  
+DOMAIN-SUFFIX,linkedin.com  
+DOMAIN-SUFFIX,vk.com  
+DOMAIN-SUFFIX,whatsapp.com  
+DOMAIN-SUFFIX,telegram.org  
+DOMAIN-SUFFIX,t.me  
+DOMAIN-SUFFIX,tdesktop.com  
+DOMAIN-SUFFIX,telegra.ph  
+DOMAIN-SUFFIX,telegram.me  
+DOMAIN-SUFFIX,telesco.pe  
+DOMAIN-SUFFIX,discord  
+DOMAIN-SUFFIX,steamcommunity.com  
+DOMAIN-SUFFIX,socialchain.app  
+DOMAIN-SUFFIX,telega.one  
+DOMAIN-SUFFIX,telegram.dog  
+DOMAIN-SUFFIX,telegram.space  
+DOMAIN-SUFFIX,line.naver.jp  
+DOMAIN-SUFFIX,line.me  
+DOMAIN-SUFFIX,line-apps.com  
+DOMAIN-SUFFIX,line-cdn.net  
+DOMAIN-SUFFIX,line-scdn.net  
+DOMAIN-SUFFIX,recaptcha.net  
+
+# （附加规则中补充：DOMAIN-SUFFIX,twimg.com; DOMAIN-SUFFIX,pinterest.com; DOMAIN-KEYWORD,discord; DOMAIN-SUFFIX,airhorn.solutions; DOMAIN-SUFFIX,airhornbot.com; DOMAIN-SUFFIX,bigbeans.solutions; DOMAIN-SUFFIX,dis.gd; DOMAIN-KEYWORD,facebook; DOMAIN-SUFFIX,fb.me; DOMAIN-KEYWORD,twitter; DOMAIN-KEYWORD,instagram; DOMAIN-KEYWORD,whatsapp; DOMAIN-SUFFIX,zoom.us; DOMAIN-SUFFIX,instagram.com; DOMAIN-SUFFIX,tx.me）
+
+DOMAIN-SUFFIX,twimg.com  
+DOMAIN-SUFFIX,pinterest.com  
+DOMAIN-KEYWORD,discord  
+DOMAIN-SUFFIX,airhorn.solutions  
+DOMAIN-SUFFIX,airhornbot.com  
+DOMAIN-SUFFIX,bigbeans.solutions  
+DOMAIN-SUFFIX,dis.gd  
+DOMAIN-KEYWORD,facebook  
+DOMAIN-SUFFIX,fb.me  
+DOMAIN-KEYWORD,twitter  
+DOMAIN-KEYWORD,instagram  
+DOMAIN-KEYWORD,whatsapp  
+DOMAIN-SUFFIX,zoom.us  
+DOMAIN-SUFFIX,instagram.com  
+DOMAIN-SUFFIX,tx.me  
+
+
+
+# ==== 设计与协作 (设计、协作及创意工具) ====
+DOMAIN-SUFFIX,figma.com  
+DOMAIN-SUFFIX,notion.com  
+DOMAIN-SUFFIX,trello.com  
+# （附加规则中补充：DOMAIN-SUFFIX,autodraw.com; DOMAIN-SUFFIX,chromeexperiments.com; DOMAIN-SUFFIX,chromestatus.com; DOMAIN-SUFFIX,creativelab5.com; DOMAIN-SUFFIX,debug.com; DOMAIN-SUFFIX,getmdl.io; DOMAIN-SUFFIX,material.io; DOMAIN-SUFFIX,tiltbrush.com）
+
+DOMAIN-SUFFIX,autodraw.com  
+DOMAIN-SUFFIX,chromeexperiments.com  
+DOMAIN-SUFFIX,chromestatus.com  
+DOMAIN-SUFFIX,creativelab5.com  
+DOMAIN-SUFFIX,debug.com  
+DOMAIN-SUFFIX,getmdl.io  
+DOMAIN-SUFFIX,material.io  
+DOMAIN-SUFFIX,tiltbrush.com  
+
+
+
+
+# ==== 科技公司服务 (大厂及相关技术服务) ====
+DOMAIN-SUFFIX,googleapis.cn  
+DOMAIN-SUFFIX,adobe.com  
+DOMAIN-SUFFIX,apple.com  
+DOMAIN-SUFFIX,microsoft.com  
+DOMAIN-SUFFIX,services.googleapis.cn  
+DOMAIN-SUFFIX,capcom.com  
+DOMAIN-SUFFIX,plexapp.com  
+DOMAIN-SUFFIX,plexmediaserver.com  
+DOMAIN-SUFFIX,plex.tv  
+DOMAIN-SUFFIX,deepmind.com  
+DOMAIN-SUFFIX,chromium.org  
+# （附加规则中补充：DOMAIN,openaiapi-site.azureedge.net; DOMAIN-SUFFIX,gstatic.com; DOMAIN,services.googleapis.cn; DOMAIN,googleapis.cn; DOMAIN,google.com; DOMAIN-SUFFIX,google.cn; DOMAIN-KEYWORD,glados; DOMAIN-SUFFIX,google.co.jp; DOMAIN-SUFFIX,abc.xyz; DOMAIN-SUFFIX,android.com; DOMAIN-SUFFIX,androidify.com; DOMAIN-SUFFIX,dialogflow.com; DOMAIN-SUFFIX,capitalg.com; DOMAIN-SUFFIX,certificate-transparency.org; DOMAIN-SUFFIX,chromeexperiments.com; DOMAIN-SUFFIX,chromestatus.com; DOMAIN-SUFFIX,ggpht.com; DOMAIN-SUFFIX,gmodules.com; DOMAIN-SUFFIX,waymo.com; DOMAIN-SUFFIX,widevine.com）
+
+DOMAIN,openaiapi-site.azureedge.net  
+DOMAIN-SUFFIX,gstatic.com  
+DOMAIN,services.googleapis.cn  
+DOMAIN,googleapis.cn  
+DOMAIN,google.com  
+DOMAIN-SUFFIX,google.cn  
+DOMAIN-KEYWORD,glados  
+DOMAIN-SUFFIX,google.co.jp  
+DOMAIN-SUFFIX,abc.xyz  
+DOMAIN-SUFFIX,android.com  
+DOMAIN-SUFFIX,androidify.com  
+DOMAIN-SUFFIX,dialogflow.com  
+DOMAIN-SUFFIX,capitalg.com  
+DOMAIN-SUFFIX,certificate-transparency.org  
+DOMAIN-SUFFIX,chromeexperiments.com  
+DOMAIN-SUFFIX,chromestatus.com  
+DOMAIN-SUFFIX,ggpht.com  
+DOMAIN-SUFFIX,gmodules.com  
+DOMAIN-SUFFIX,waymo.com  
+DOMAIN-SUFFIX,widevine.com  
+
+
+
+# ==== 云存储与计算 (云存储、云计算相关) ====
+DOMAIN-SUFFIX,amazonaws.com  
+DOMAIN-SUFFIX,dropbox.com  
+DOMAIN-SUFFIX,firebaseio.com
+
+
+
+# ==== 流媒体与娱乐 (影音、娱乐及媒体平台) ====
+DOMAIN-SUFFIX,spotify.com  
+DOMAIN-SUFFIX,imdb.com  
+DOMAIN-SUFFIX,imgur.com  
+DOMAIN-SUFFIX,yfsp.tv  
+DOMAIN-SUFFIX,aiyifan.tv  
+DOMAIN-SUFFIX,meijutt.cc  
+DOMAIN-SUFFIX,piaohua.com  
+DOMAIN-SUFFIX,streetfighter.com  
+DOMAIN-SUFFIX,thepiratebay.org
+
+
+
+# ==== 电子商务 (电商平台相关) ====
+DOMAIN-SUFFIX,amazon.com  
+DOMAIN-SUFFIX,ebay.com  
+DOMAIN-SUFFIX,myshopify.com  
+DOMAIN-SUFFIX,polymarket.com  
+# （附加规则中补充：DOMAIN-SUFFIX,amazon.co.jp）
+DOMAIN-SUFFIX,amazon.co.jp
+
+
+
+# ==== 学术与研究 (学术论文、期刊及研究平台) ====
+DOMAIN-SUFFIX,rxiv.org  
+DOMAIN-SUFFIX,acrjournals.org  
+DOMAIN-SUFFIX,annualreviews.org  
+DOMAIN-SUFFIX,jstor.org  
+DOMAIN-SUFFIX,1lib.sk  
+
+# （附加规则中补充：DOMAIN-SUFFIX,cademic.eb.com; DOMAIN-SUFFIX,imsciences.org; DOMAIN-SUFFIX,nnualreviews.org; DOMAIN-SUFFIX,scelibrary.org; DOMAIN-SUFFIX,spbjournals.org; DOMAIN-SUFFIX,spenpublishing.com; DOMAIN-SUFFIX,siam.org; DOMAIN-SUFFIX,rabidopsis.org; DOMAIN-SUFFIX,rtstor.org）
+
+DOMAIN-SUFFIX,cademic.eb.com  
+DOMAIN-SUFFIX,imsciences.org  
+DOMAIN-SUFFIX,nnualreviews.org  
+DOMAIN-SUFFIX,scelibrary.org  
+DOMAIN-SUFFIX,spbjournals.org  
+DOMAIN-SUFFIX,spenpublishing.com  
+DOMAIN-SUFFIX,siam.org  
+DOMAIN-SUFFIX,rabidopsis.org  
+DOMAIN-SUFFIX,rtstor.org  
+
+
+
+
+# ==== 新闻与媒体 (新闻、资讯及博客类) ====
+DOMAIN-SUFFIX,nytimes.com  
+DOMAIN-SUFFIX,techcrunch.com  
+DOMAIN-SUFFIX,wikipedia.org  
+DOMAIN-SUFFIX,blogspot.com  
+# （附加规则中补充：DOMAIN-SUFFIX,static.wikia.nocookie.net; DOMAIN-KEYWORD,blogspot; DOMAIN-KEYWORD,wikipedia; DOMAIN-SUFFIX,yahoo.com; DOMAIN-SUFFIX,okezone.com; DOMAIN-SUFFIX,yahoo.co.jp; DOMAIN-SUFFIX,wordpress.com）
+
+DOMAIN-SUFFIX,static.wikia.nocookie.net  
+DOMAIN-KEYWORD,blogspot  
+DOMAIN-KEYWORD,wikipedia  
+DOMAIN-SUFFIX,yahoo.com  
+DOMAIN-SUFFIX,okezone.com  
+DOMAIN-SUFFIX,yahoo.co.jp  
+DOMAIN-SUFFIX,wordpress.com  
+
+
+
+# ==== 网络工具与测试 (网络测试、监控及相关工具) ====
+DOMAIN-SUFFIX,ping.pe  
+DOMAIN-SUFFIX,ip.sb  
+DOMAIN-SUFFIX,netlify.app  
+DOMAIN-SUFFIX,ipinfo.io  
+DOMAIN-SUFFIX,ip-score.com  
+DOMAIN-SUFFIX,dnsleaktest.com  
+DOMAIN-SUFFIX,ipleak.net  
+DOMAIN-SUFFIX,browserleaks.com  
+DOMAIN-SUFFIX,browserleaks.org  
+DOMAIN-SUFFIX,browserleaks.net  
+DOMAIN-SUFFIX,ip-api.com  
+DOMAIN-SUFFIX,dnscheck.tools  
+DOMAIN-SUFFIX,arin.net  
+DOMAIN-SUFFIX,test-ipv6.com  
+DOMAIN-SUFFIX,ipw.cn  
+DOMAIN-SUFFIX,whoer.net  
+DOMAIN-SUFFIX,ifconfig.me  
+# （附加规则中补充：DOMAIN,ip.sb; DOMAIN-SUFFIX,f2pool.com; DOMAIN-SUFFIX,admin.recaptcha.net）
+
+DOMAIN,ip.sb
+DOMAIN-SUFFIX,f2pool.com
 DOMAIN-SUFFIX,admin.recaptcha.net
-#DOMAIN-SUFFIX,recaptcha.net  # 重复于前面的 DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,shattered.io
-DOMAIN-SUFFIX,synergyse.com
-#DOMAIN-SUFFIX,tensorflow.org  # 重复于前面的 DOMAIN-SUFFIX,tensorflow.org
-DOMAIN-SUFFIX,tiltbrush.com
-DOMAIN-SUFFIX,waveprotocol.org
-DOMAIN-SUFFIX,waymo.com
-DOMAIN-SUFFIX,webmproject.org
-DOMAIN-SUFFIX,webrtc.org
-#DOMAIN-SUFFIX,whatbrowser.org  # 重复于前面的 DOMAIN-SUFFIX,whatbrowser.org
-DOMAIN-SUFFIX,widevine.com
-DOMAIN-SUFFIX,x.company
-DOMAIN-SUFFIX,contest.com
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,quiz.directory
-#DOMAIN-SUFFIX,t.me  # 重复于前面的 DOMAIN-SUFFIX,t.me
-#DOMAIN-SUFFIX,tdesktop.com  # 重复于前面的 DOMAIN-SUFFIX,tdesktop.com
-#DOMAIN-SUFFIX,telega.one  # 重复于前面的 DOMAIN-SUFFIX,telega.one
-#DOMAIN-SUFFIX,telegra.ph  # 重复于前面的 DOMAIN-SUFFIX,telegra.ph
-#DOMAIN-SUFFIX,telegram.dog  # 重复于前面的 DOMAIN-SUFFIX,telegram.dog
-#DOMAIN-SUFFIX,telegram.me  # 重复于前面的 DOMAIN-SUFFIX,telegram.me
-#DOMAIN-SUFFIX,telegram.org  # 重复于前面的 DOMAIN-SUFFIX,telegram.org
-#DOMAIN-SUFFIX,telegram.space  # 重复于前面的 DOMAIN-SUFFIX,telegram.space
-#DOMAIN-SUFFIX,telesco.pe  # 重复于前面的 DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,tx.me
-DOMAIN-SUFFIX,usercontent.dev
-#DOMAIN,dns.google  # 重复于前面的 DOMAIN-SUFFIX,dns.google（类型不同）
+
+
+
+# ==== 浏览器相关 (浏览器及相关检测) ====
+DOMAIN-SUFFIX,firefox.com  
+DOMAIN-SUFFIX,chrome.com  
+DOMAIN-SUFFIX,webkit.org  
+DOMAIN-SUFFIX,whatbrowser.org
+
+
+
+# ==== 国外DNS (国外 DNS 服务) ====
+DOMAIN-SUFFIX,dns.google  
+DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com  
+DOMAIN-SUFFIX,dot.sb  
+DOMAIN-SUFFIX,dns.umbrella.com  
+DOMAIN-SUFFIX,dns.quad9.net  
+DOMAIN-SUFFIX,cloudflare-dns.com  
+DOMAIN-SUFFIX,doh.dns.sb  
+DOMAIN-SUFFIX,doh.opendns.com  
+DOMAIN-SUFFIX,hk-hkg.doh.sb  
+DOMAIN-SUFFIX,surfsharkdns.com
+
+
+
+# ==== 其他特殊类别 (其它不易归类的特殊规则) ====
+DOMAIN-SUFFIX,myqnapcloud.com  
+DOMAIN-SUFFIX,qnapclub.eu  
+DOMAIN-SUFFIX,myqnapcloud.io  
+DOMAIN-SUFFIX,bongacams.com  
+DOMAIN-SUFFIX,6bcloud.top  
+DOMAIN-SUFFIX,viptwo.top  
+DOMAIN-SUFFIX,followme.com  
+DOMAIN-SUFFIX,followme.ceo  
+DOMAIN-SUFFIX,whatsmydns.me  
+DOMAIN-SUFFIX,hostloc.net  
+DOMAIN-SUFFIX,tmgm.com  
+DOMAIN-SUFFIX,ip111.cn  
+DOMAIN-SUFFIX,asiassn.com  
+DOMAIN-SUFFIX,abcproxy.com  
+DOMAIN-SUFFIX,piliapp.com  
+DOMAIN-SUFFIX,xiaoxintv.cc  
+DOMAIN-SUFFIX,bulianglin.com  
+DOMAIN-SUFFIX,coincola.com  
+DOMAIN-SUFFIX,coincolacdn.com  
+DOMAIN-SUFFIX,colaotc.com  
+DOMAIN-SUFFIX,metacubex.one  
+DOMAIN-SUFFIX,polivera.ai  
+DOMAIN-SUFFIX,stotik.com  
+DOMAIN-SUFFIX,nodeseek.com  
+DOMAIN-SUFFIX,onesignal.com  
+DOMAIN-SUFFIX,hlive.io  
+DOMAIN-SUFFIX,bitwayeat.com  
+DOMAIN-SUFFIX,null-addr.com  
+DOMAIN-SUFFIX,addr.tools  
+DOMAIN-SUFFIX,vultr.com  
+DOMAIN-SUFFIX,speedtest.net  
+# （附加规则中补充：DOMAIN-SUFFIX,caric.co.jp; DOMAIN-SUFFIX,clweb.org; DOMAIN-SUFFIX,cm.org; DOMAIN-SUFFIX,cs.org; DOMAIN-SUFFIX,gu.org; DOMAIN-SUFFIX,iaa.org; DOMAIN-SUFFIX,ms.org; DOMAIN-SUFFIX,natomy.tv; DOMAIN-SUFFIX,nalytictech.com; DOMAIN-SUFFIX,ps.org; DOMAIN-SUFFIX,sha.org; DOMAIN-SUFFIX,sm.org; DOMAIN-SUFFIX,sme.org; DOMAIN-SUFFIX,sminternational.org; DOMAIN-SUFFIX,sn-online.org; DOMAIN-SUFFIX,stm.org; DOMAIN-SUFFIX,gv.com; DOMAIN-SUFFIX,shattered.io; DOMAIN-SUFFIX,synergyse.com; DOMAIN-SUFFIX,x.company; DOMAIN-SUFFIX,contest.com; DOMAIN-SUFFIX,graph.org; DOMAIN-SUFFIX,quiz.directory; DOMAIN-SUFFIX,tg.dev; DOMAIN-SUFFIX,usercontent.dev）
+
+DOMAIN-SUFFIX,caric.co.jp  
+DOMAIN-SUFFIX,clweb.org  
+DOMAIN-SUFFIX,cm.org  
+DOMAIN-SUFFIX,cs.org  
+DOMAIN-SUFFIX,gu.org  
+DOMAIN-SUFFIX,iaa.org  
+DOMAIN-SUFFIX,ms.org  
+DOMAIN-SUFFIX,natomy.tv  
+DOMAIN-SUFFIX,nalytictech.com  
+DOMAIN-SUFFIX,ps.org  
+DOMAIN-SUFFIX,sha.org  
+DOMAIN-SUFFIX,sm.org  
+DOMAIN-SUFFIX,sme.org  
+DOMAIN-SUFFIX,sminternational.org  
+DOMAIN-SUFFIX,sn-online.org  
+DOMAIN-SUFFIX,stm.org  
+DOMAIN-SUFFIX,gv.com  
+DOMAIN-SUFFIX,shattered.io  
+DOMAIN-SUFFIX,synergyse.com  
+DOMAIN-SUFFIX,x.company  
+DOMAIN-SUFFIX,contest.com  
+DOMAIN-SUFFIX,graph.org  
+DOMAIN-SUFFIX,quiz.directory  
+DOMAIN-SUFFIX,tg.dev  
+DOMAIN-SUFFIX,usercontent.dev  
