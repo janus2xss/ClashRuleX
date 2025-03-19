@@ -3,8 +3,6 @@
 DOMAIN-KEYWORD,scholar
 DOMAIN-KEYWORD,copilot
 
-DOMAIN,gemini.google.com
-DOMAIN,makersuite.google.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,ai.google.dev
@@ -27,11 +25,11 @@ DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN,copilot.microsoft.com
+DOMAIN,copilot.microsoft.com  # 重复于前面的 DOMAIN-KEYWORD,copilot
 
 # ===== Google 相关（Bard/Gemini/MakerSuite） =====
 DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.google.com  
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleapis.cn
