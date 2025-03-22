@@ -137,8 +137,8 @@ DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,live.net
+# DOMAIN-SUFFIX,live.com
+# DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,sharepoint.com
