@@ -48,7 +48,10 @@ DOMAIN-KEYWORD,google
 
 # ==== 邮件与办公 (邮件、办公及通讯相关) ====
 DOMAIN-SUFFIX,hotmail.com  
-DOMAIN-SUFFIX,live.com  
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,public.*.files.1drv.com
+DOMAIN-SUFFIX,1drv.ms
 DOMAIN-SUFFIX,office.com  
 DOMAIN-SUFFIX,gmail.com  
 DOMAIN-SUFFIX,msn.com  
